@@ -1,6 +1,4 @@
 package starter.SpringBootKotlin
 
-class CheckInRequest {
-    var hotelName: String? = null
-    var noGuests = 0
+class CheckInRequest(val hotelName: String, val noGuests: Int) {
 }
